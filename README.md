@@ -1,16 +1,80 @@
-# React + Vite
+<div align="center">
+  <img src="https://raw.githubusercontent.com/heyparth-13/power-punch-gym/master/public/hero_bg.png" alt="Power Punch Gym" width="100%" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <h1>🥊 Power Punch Gym</h1>
+  <p><strong>Unleash your true power with the best gym in town.</strong></p>
 
-Currently, two official plugins are available:
+  <p>
+    <a href="#features">Features</a> •
+    <a href="#preview">Preview</a> •
+    <a href="#tech-stack">Tech Stack</a> •
+    <a href="#running-locally">Running Locally</a>
+  </p>
+  
+  [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](#)
+  [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](#)
+  [![Vercel Ready](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](#)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+</div>
 
-## React Compiler
+<br />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌟 Features
 
-## Expanding the ESLint configuration
+*   **Dynamic Dark Theme**: A sleek glassmorphism design with vibrant neon accents.
+*   **Hero Section**: Powerful call-to-actions paired with stunning imagery.
+*   **Facilities Showcase**: Dedicated sections for Yoga, Zumba, and Floor Workouts.
+*   **Pricing Cards**: Beautiful, interactive membership tier cards with a "Most Popular" highlight.
+*   **WhatsApp Integration**: Instant messaging redirects to connect directly with the gym owner for queries and memberships.
+*   **Fully Responsive**: Perfectly optimized for Mobile, Tablet, and Desktop viewing.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Website Preview
+
+Here's a glimpse of what the Power Punch Gym website looks like in action. 
+
+> *The website is fully responsive, featuring smooth hover animations and a premium dark mode aesthetic.*
+
+![Hero Section Preview](https://raw.githubusercontent.com/heyparth-13/power-punch-gym/master/public/hero_bg.png)
+
+*(You can replace this image with a full-page screenshot of the final deployed website later!)*
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework**: Vite + React
+- **Styling**: Vanilla CSS (Custom Design System, CSS Variables, Glassmorphism)
+- **Deployment**: Configured for Vercel (`vercel.json` included)
+
+---
+
+## 🚀 Running Locally
+
+To run this project on your local machine, follow these simple steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/heyparth-13/power-punch-gym.git
+   cd power-punch-gym
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **View in browser:**
+   Open [http://localhost:5173/](http://localhost:5173/) in your web browser.
+
+---
+
+<div align="center">
+  <p>Built with ❤️ for Power Punch Gym.</p>
+</div>
