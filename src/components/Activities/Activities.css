@@ -1,0 +1,34 @@
+.activities-section {
+  position: relative;
+}
+
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.activity-card {
+  padding: 30px 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.activity-card:hover {
+  background: var(--surface-hover);
+  transform: translateY(-5px);
+  border-color: var(--secondary);
+}
+
+.activity-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.activity-card h4 {
+  color: var(--text-main);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
